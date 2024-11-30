@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 198.707 sec <<< FAILURE!
+testToVerifyRegistration(tests.testcases.UserRegistrationTest)  Time elapsed: 30.749 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at elements.element.GenericObject.isDisplayed(GenericObject.java:97)
+	at pages.HomePage.isHomePageLoaded(HomePage.java:52)
+	at tests.steps.UserRegistrationSteps.userGoesToNopCommerceHomePage(UserRegistrationSteps.java:23)
+	at tests.testcases.UserRegistrationTest.testToVerifyRegistration(UserRegistrationTest.java:19)
+
+testToVerifyRegistration(tests.testcases.UserRegistrationTest)  Time elapsed: 30.437 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at elements.element.GenericObject.isDisplayed(GenericObject.java:97)
+	at pages.HomePage.isHomePageLoaded(HomePage.java:52)
+	at tests.steps.UserRegistrationSteps.userGoesToNopCommerceHomePage(UserRegistrationSteps.java:23)
+	at tests.testcases.UserRegistrationTest.testToVerifyRegistration(UserRegistrationTest.java:19)
+
+testToVerifyRegistration(tests.testcases.UserRegistrationTest)  Time elapsed: 30.434 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at elements.element.GenericObject.isDisplayed(GenericObject.java:97)
+	at pages.HomePage.isHomePageLoaded(HomePage.java:52)
+	at tests.steps.UserRegistrationSteps.userGoesToNopCommerceHomePage(UserRegistrationSteps.java:23)
+	at tests.testcases.UserRegistrationTest.testToVerifyRegistration(UserRegistrationTest.java:19)
+
+testToVerifyRegistration(tests.testcases.UserRegistrationTest)  Time elapsed: 30.407 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at elements.element.GenericObject.isDisplayed(GenericObject.java:97)
+	at pages.HomePage.isHomePageLoaded(HomePage.java:52)
+	at tests.steps.UserRegistrationSteps.userGoesToNopCommerceHomePage(UserRegistrationSteps.java:23)
+	at tests.testcases.UserRegistrationTest.testToVerifyRegistration(UserRegistrationTest.java:19)
+
+testToVerifyRegistration(tests.testcases.UserRegistrationTest)  Time elapsed: 30.434 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at elements.element.GenericObject.isDisplayed(GenericObject.java:97)
+	at pages.HomePage.isHomePageLoaded(HomePage.java:52)
+	at tests.steps.UserRegistrationSteps.userGoesToNopCommerceHomePage(UserRegistrationSteps.java:23)
+	at tests.testcases.UserRegistrationTest.testToVerifyRegistration(UserRegistrationTest.java:19)
+
+testToVerifyPlaceOrderAsGuest(tests.testcases.PlaceOrderAsGuestTest)  Time elapsed: 30.49 sec  <<< FAILURE!
+java.lang.AssertionError: User landed on NopCommerce homepage expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at abstractComponents.FrameworkAssertionLibrary.stepAssertionShouldBeTrue(FrameworkAssertionLibrary.java:36)
+	at tests.steps.PlaceOrderAsGuestSteps.userGoToTheNopCommerceHomePage(PlaceOrderAsGuestSteps.java:30)
+	at tests.testcases.PlaceOrderAsGuestTest.testToVerifyPlaceOrderAsGuest(PlaceOrderAsGuestTest.java:20)
+

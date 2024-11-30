@@ -1,0 +1,44 @@
+FROM mcr.microsoft.com/windows:10.0.19041.1415-amd64
+# Set environment variables
+ENV JAVA_HOME="C:\\java"
+ENV MAVEN_HOME="C:\\apache-maven"
+ENV CHROME_VERSION="latest"
+
+# Install Chocolatey
+RUN (New-Object System.Net.WebClient).DownloadFile('https://chocolatey.org/install.ps1', 'C:\install_choco.ps1'); \
+    C:\install_choco.ps1; \
+    Remove-Item -Path C:\install_choco.ps1 -Force
+
+# Install Java
+RUN choco install -y openjdk11
+
+# Install Maven
+RUN choco install -y maven
+# Install Git
+RUN choco install -y git
+
+# Install Chrome
+RUN choco install -y googlechrome --version %CHROME_VERSION%
+
+# Install Firefox
+RUN choco install -y firefox
+
+# Install Jenkins
+RUN choco install -y jenkins
+
+# Set Jenkins to run as a service
+RUN sc.exe create Jenkins binPath= "\"C:\Program Files\jenkins\jenkins.exe\" --service" start= auto
+
+# Start Jenkins service
+RUN Start-Service Jenkins
+
+# Add Java, Maven, Git, Chrome, and Firefox to the PATH
+RUN setx /M PATH "%PATH%;%JAVA_HOME%\bin;%MAVEN_HOME%\bin;C:\Program Files\Git\cmd;C:\Program Files\Google\Chrome\Application;C:\Program Files\Mozilla Firefox"
+
+# Clone Git repository
+RUN git clone https://github.com/shohel677/Selenium-Hybrid-Project.git C:\repo
+
+WORKDIR /repo
+
+# Display content of the repository
+RUN dir

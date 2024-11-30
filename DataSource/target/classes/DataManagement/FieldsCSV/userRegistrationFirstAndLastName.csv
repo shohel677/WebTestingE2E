@@ -1,0 +1,3 @@
+labelName,TypeOfField,AutoFill
+First name,Text,FALSE
+Last name,Text,FALSE

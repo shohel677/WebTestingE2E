@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>D:\Shohel\framework_design\Test\regression.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 6 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.testcases.PlaceOrderAsGuestTest" class="method navigator-link" hash-for-method="testToVerifyPlaceOrderAsGuest(Alla,Donald,email,ABC Ltd,Bangladesh,Dhaka,45 demo street,1200,65898652,Continue, org.testng.TestRun...)">testToVerifyPlaceOrderAsGuest(Alla,Donald,email,ABC Ltd,Bangladesh,Dhaka,45 demo street,1200,65898652,Continue, org.testng.TestRun...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.testcases.UserRegistrationTest" class="method navigator-link" hash-for-method="testToVerifyRegistration(Male,Amanda,Anderson,2/05/2001,email,Abc company-23,checked,pass@1234,pass@1234,Register,Your regist...)">testToVerifyRegistration(Male,Amanda,Anderson,2/05/2001,email,Abc company-23,checked,pass@1234,pass@1234,Register,Your regist...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.testcases.UserRegistrationTest" class="method navigator-link" hash-for-method="testToVerifyRegistration(Male,Anthony,Abraham,20/05/1995,email,Abc company-23,checked,pass@1234,pass@1234,Register,Your regis...)">testToVerifyRegistration(Male,Anthony,Abraham,20/05/1995,email,Abc company-23,checked,pass@1234,pass@1234,Register,Your regis...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.testcases.UserRegistrationTest" class="method navigator-link" hash-for-method="testToVerifyRegistration(Female,Alexandra,Allan,9/05/1999,email,Abc company-23,unchecked,pass@1234,pass@1234,Register,Your re...)">testToVerifyRegistration(Female,Alexandra,Allan,9/05/1999,email,Abc company-23,unchecked,pass@1234,pass@1234,Register,Your re...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.testcases.UserRegistrationTest" class="method navigator-link" hash-for-method="testToVerifyRegistration(Female,Austin,Arnold,10/05/1990,email,Abc company-23,unchecked,pass@1234,pass@1234,Register,Your reg...)">testToVerifyRegistration(Female,Austin,Arnold,10/05/1990,email,Abc company-23,unchecked,pass@1234,pass@1234,Register,Your reg...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.testcases.UserRegistrationTest" class="method navigator-link" hash-for-method="testToVerifyRegistration(Female,Alison,Alsop,3/05/2000,email,Abc company-23,unchecked,pass@1234,pass@1234,Register,Your regis...)">testToVerifyRegistration(Female,Alison,Alsop,3/05/2000,email,Abc company-23,unchecked,pass@1234,pass@1234,Register,Your regis...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.testcases.UserRegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToVerifyRegistration(Male,Amanda,Anderson,2/05/2001,email,Abc company-23,checked,pass@1234,pass@1234,Register,Your regist...)">
+                  </a> <!-- testToVerifyRegistration(Male,Amanda,Anderson,2/05/2001,email,Abc company-23,checked,pass@1234,pass@1234,Register,Your regist...) -->
+                  <span class="method-name">testToVerifyRegistration</span>
+                  <span class="parameters">(Male,Amanda,Anderson,2/05/2001,email,Abc company-23,checked,pass@1234,pass@1234,Register,Your registration completed,org.testng.TestRunner@4d09cade)</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at elements.element.GenericObject.isDisplayed(GenericObject.java:97)
+	at pages.HomePage.isHomePageLoaded(HomePage.java:52)
+	at tests.steps.UserRegistrationSteps.userGoesToNopCommerceHomePage(UserRegistrationSteps.java:23)
+	at tests.testcases.UserRegistrationTest.testToVerifyRegistration(UserRegistrationTest.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Nopcommerce registration feature Test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToVerifyRegistration(Male,Anthony,Abraham,20/05/1995,email,Abc company-23,checked,pass@1234,pass@1234,Register,Your regis...)">
+                  </a> <!-- testToVerifyRegistration(Male,Anthony,Abraham,20/05/1995,email,Abc company-23,checked,pass@1234,pass@1234,Register,Your regis...) -->
+                  <span class="method-name">testToVerifyRegistration</span>
+                  <span class="parameters">(Male,Anthony,Abraham,20/05/1995,email,Abc company-23,checked,pass@1234,pass@1234,Register,Your registration completed,org.testng.TestRunner@4d09cade)</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at elements.element.GenericObject.isDisplayed(GenericObject.java:97)
+	at pages.HomePage.isHomePageLoaded(HomePage.java:52)
+	at tests.steps.UserRegistrationSteps.userGoesToNopCommerceHomePage(UserRegistrationSteps.java:23)
+	at tests.testcases.UserRegistrationTest.testToVerifyRegistration(UserRegistrationTest.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Nopcommerce registration feature Test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToVerifyRegistration(Female,Alexandra,Allan,9/05/1999,email,Abc company-23,unchecked,pass@1234,pass@1234,Register,Your re...)">
+                  </a> <!-- testToVerifyRegistration(Female,Alexandra,Allan,9/05/1999,email,Abc company-23,unchecked,pass@1234,pass@1234,Register,Your re...) -->
+                  <span class="method-name">testToVerifyRegistration</span>
+                  <span class="parameters">(Female,Alexandra,Allan,9/05/1999,email,Abc company-23,unchecked,pass@1234,pass@1234,Register,Your registration completed,org.testng.TestRunner@4d09cade)</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at elements.element.GenericObject.isDisplayed(GenericObject.java:97)
+	at pages.HomePage.isHomePageLoaded(HomePage.java:52)
+	at tests.steps.UserRegistrationSteps.userGoesToNopCommerceHomePage(UserRegistrationSteps.java:23)
+	at tests.testcases.UserRegistrationTest.testToVerifyRegistration(UserRegistrationTest.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Nopcommerce registration feature Test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToVerifyRegistration(Female,Austin,Arnold,10/05/1990,email,Abc company-23,unchecked,pass@1234,pass@1234,Register,Your reg...)">
+                  </a> <!-- testToVerifyRegistration(Female,Austin,Arnold,10/05/1990,email,Abc company-23,unchecked,pass@1234,pass@1234,Register,Your reg...) -->
+                  <span class="method-name">testToVerifyRegistration</span>
+                  <span class="parameters">(Female,Austin,Arnold,10/05/1990,email,Abc company-23,unchecked,pass@1234,pass@1234,Register,Your registration completed,org.testng.TestRunner@4d09cade)</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at elements.element.GenericObject.isDisplayed(GenericObject.java:97)
+	at pages.HomePage.isHomePageLoaded(HomePage.java:52)
+	at tests.steps.UserRegistrationSteps.userGoesToNopCommerceHomePage(UserRegistrationSteps.java:23)
+	at tests.testcases.UserRegistrationTest.testToVerifyRegistration(UserRegistrationTest.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Nopcommerce registration feature Test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToVerifyRegistration(Female,Alison,Alsop,3/05/2000,email,Abc company-23,unchecked,pass@1234,pass@1234,Register,Your regis...)">
+                  </a> <!-- testToVerifyRegistration(Female,Alison,Alsop,3/05/2000,email,Abc company-23,unchecked,pass@1234,pass@1234,Register,Your regis...) -->
+                  <span class="method-name">testToVerifyRegistration</span>
+                  <span class="parameters">(Female,Alison,Alsop,3/05/2000,email,Abc company-23,unchecked,pass@1234,pass@1234,Register,Your registration completed,org.testng.TestRunner@4d09cade)</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at elements.element.GenericObject.isDisplayed(GenericObject.java:97)
+	at pages.HomePage.isHomePageLoaded(HomePage.java:52)
+	at tests.steps.UserRegistrationSteps.userGoesToNopCommerceHomePage(UserRegistrationSteps.java:23)
+	at tests.testcases.UserRegistrationTest.testToVerifyRegistration(UserRegistrationTest.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Nopcommerce registration feature Test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.testcases.PlaceOrderAsGuestTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToVerifyPlaceOrderAsGuest(Alla,Donald,email,ABC Ltd,Bangladesh,Dhaka,45 demo street,1200,65898652,Continue, org.testng.TestRun...)">
+                  </a> <!-- testToVerifyPlaceOrderAsGuest(Alla,Donald,email,ABC Ltd,Bangladesh,Dhaka,45 demo street,1200,65898652,Continue, org.testng.TestRun...) -->
+                  <span class="method-name">testToVerifyPlaceOrderAsGuest</span>
+                  <span class="parameters">(Alla,Donald,email,ABC Ltd,Bangladesh,Dhaka,45 demo street,1200,65898652,Continue,org.testng.TestRunner@9a20cbd)</span>
+                  <div class="stack-trace">java.lang.AssertionError: User landed on NopCommerce homepage expected [true] but found [false]
+	at abstractComponents.FrameworkAssertionLibrary.stepAssertionShouldBeTrue(FrameworkAssertionLibrary.java:36)
+	at tests.steps.PlaceOrderAsGuestSteps.userGoToTheNopCommerceHomePage(PlaceOrderAsGuestSteps.java:30)
+	at tests.testcases.PlaceOrderAsGuestTest.testToVerifyPlaceOrderAsGuest(PlaceOrderAsGuestTest.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(User should be able to successfully place order as a guest user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Shohel\framework_design\Test\regression.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;testComponents.SuiteListener&quot;/&gt;
+    &lt;listener class-name=&quot;testComponents.ReportListeners&quot;/&gt;
+    &lt;listener class-name=&quot;testComponents.AssertionListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Nopcommerce user registration&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.testcases.UserRegistrationTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testToVerifyRegistration&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- tests.testcases.UserRegistrationTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Nopcommerce user registration --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Nopcommerce place order as guest&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.testcases.PlaceOrderAsGuestTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testToVerifyPlaceOrderAsGuest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- tests.testcases.PlaceOrderAsGuestTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Nopcommerce place order as guest --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Nopcommerce user registration (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Nopcommerce place order as guest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testToVerifyRegistration')
+data.setCell(0, 2, 'tests.testcases.UserRegistrationTest')
+data.setCell(0, 3, 30521);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testToVerifyRegistration')
+data.setCell(1, 2, 'tests.testcases.UserRegistrationTest')
+data.setCell(1, 3, 30310);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testToVerifyPlaceOrderAsGuest')
+data.setCell(2, 2, 'tests.testcases.PlaceOrderAsGuestTest')
+data.setCell(2, 3, 30309);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testToVerifyRegistration')
+data.setCell(3, 2, 'tests.testcases.UserRegistrationTest')
+data.setCell(3, 3, 30285);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testToVerifyRegistration')
+data.setCell(4, 2, 'tests.testcases.UserRegistrationTest')
+data.setCell(4, 3, 30280);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testToVerifyRegistration')
+data.setCell(5, 2, 'tests.testcases.UserRegistrationTest')
+data.setCell(5, 3, 30264);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.testcases.UserRegistrationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void tests.testcases.UserRegistrationTest.testToVerifyRegistration(java.lang.String,org.testn...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testToVerifyRegistration(Male,Anthony,Abraham,20/05/1995,email,Abc company-23,checked,pass@1234,pass@1234,Register,Your regis...)</span>
+                <span class="method-start">3871 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testToVerifyRegistration status=FAILURE method=UserRegistrationTest.testToVerifyReg...)</span>
+                <span class="method-start">34618 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void tests.testcases.UserRegistrationTest.testToVerifyRegistration(java.lang.String,org.testn...)</span>
+                <span class="method-start">34733 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testToVerifyRegistration(Female,Alexandra,Allan,9/05/1999,email,Abc company-23,unchecked,pass@1234,pass@1234,Register,Your re...)</span>
+                <span class="method-start">36198 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testToVerifyRegistration status=FAILURE method=UserRegistrationTest.testToVerifyReg...)</span>
+                <span class="method-start">66636 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void tests.testcases.UserRegistrationTest.testToVerifyRegistration(java.lang.String,org.testn...)</span>
+                <span class="method-start">66793 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testToVerifyRegistration(Female,Alison,Alsop,3/05/2000,email,Abc company-23,unchecked,pass@1234,pass@1234,Register,Your regis...)</span>
+                <span class="method-start">68573 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testToVerifyRegistration status=FAILURE method=UserRegistrationTest.testToVerifyReg...)</span>
+                <span class="method-start">99007 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void tests.testcases.UserRegistrationTest.testToVerifyRegistration(java.lang.String,org.testn...)</span>
+                <span class="method-start">99105 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testToVerifyRegistration(Male,Amanda,Anderson,2/05/2001,email,Abc company-23,checked,pass@1234,pass@1234,Register,Your regist...)</span>
+                <span class="method-start">100365 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testToVerifyRegistration status=FAILURE method=UserRegistrationTest.testToVerifyReg...)</span>
+                <span class="method-start">130772 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void tests.testcases.UserRegistrationTest.testToVerifyRegistration(java.lang.String,org.testn...)</span>
+                <span class="method-start">130919 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testToVerifyRegistration(Female,Austin,Arnold,10/05/1990,email,Abc company-23,unchecked,pass@1234,pass@1234,Register,Your reg...)</span>
+                <span class="method-start">132571 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testToVerifyRegistration status=FAILURE method=UserRegistrationTest.testToVerifyReg...)</span>
+                <span class="method-start">163005 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.testcases.PlaceOrderAsGuestTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void tests.testcases.PlaceOrderAsGuestTest.testToVerifyPlaceOrderAsGuest(java.lang.String,org...)</span>
+                <span class="method-start">163618 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testToVerifyPlaceOrderAsGuest(Alla,Donald,email,ABC Ltd,Bangladesh,Dhaka,45 demo street,1200,65898652,Continue, org.testng.TestRun...)</span>
+                <span class="method-start">165189 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testToVerifyPlaceOrderAsGuest status=FAILURE method=PlaceOrderAsGuestTest.testToVer...)</span>
+                <span class="method-start">195680 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

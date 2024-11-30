@@ -1,0 +1,11 @@
+labelName,TypeOfField,AutoFill
+First name,Text,FALSE
+Last name,Text,FALSE
+Email,email,TRUE
+Company,Text,FALSE
+Country,select,FALSE
+City,Text,FALSE
+Address 1,Text,FALSE
+Zip / postal code,Text,FALSE
+Phone number,Text,FALSE
+CONTINUE,button,FALSE

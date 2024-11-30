@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="6" failures="6" name="TestSuite" time="182.951" errors="0" skipped="0">
+  <properties>
+    <property name="platform" value="docker"/>
+    <property name="idea.version" value="2024.1.4"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.19+9-LTS-224"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Shohel\framework_design"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Shohel\framework_design"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.19+9-LTS-224"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\STL\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="suiteXmlFile" value="regression.xml"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\apache-maven-3.9.3\bin;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.3\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Docker\Docker\resources\bin;C:\allure-2.27.0\allure-2.27.0\bin;C:\Program Files\nodejs\;C:\Users\STL\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Oracle\VirtualBox;;C:\Users\STL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2023.2.5\bin;;C:\Users\STL\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\STL\AppData\Roaming\npm;."/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\plugins\maven\lib\maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\STL"/>
+    <property name="user.timezone" value="Asia/Dhaka"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="STL"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.7.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2024.1.4 clean install test -DsuiteXmlFile=regression.xml -Dplatform=docker"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.19"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="tests.testcases.UserRegistrationTest" name="testToVerifyRegistration" time="30.749">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at elements.element.GenericObject.isDisplayed(GenericObject.java:97)
+	at pages.HomePage.isHomePageLoaded(HomePage.java:52)
+	at tests.steps.UserRegistrationSteps.userGoesToNopCommerceHomePage(UserRegistrationSteps.java:23)
+	at tests.testcases.UserRegistrationTest.testToVerifyRegistration(UserRegistrationTest.java:19)
+</failure>
+    <system-out>D:\Shohel\framework_design\Utility\reports\report.html
+D:\Shohel\framework_design\Utility\reports\report.html
+Method NAME IS : testToVerifyRegistration
+13:36:14.906 INFO  Starting testcase: testToVerifyRegistration
+13:36:15.836 INFO  Open URL: https://demo.nopcommerce.com/
+13:36:16.012 INFO  Check visibility of element - &apos;By.xpath: //a/img[@alt=&apos;nopCommerce demo store&apos;]&apos;
+13:36:46.504 INFO  org.openqa.selenium.TimeoutException: Expected condition failed: Element Noopcommerce logo is not found (tried for 30 second(s) with 5000 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.78, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:34725}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.21.0.5:4444/sessio..., se:cdpVersion: 124.0.6367.78, se:vnc: ws://172.21.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 82b965241b448dd78a9248b17ed66ceb
+</system-out>
+    <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Oct 28, 2024 1:36:12 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
+</system-err>
+  </testcase>
+  <testcase classname="tests.testcases.UserRegistrationTest" name="testToVerifyRegistration" time="30.437">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at elements.element.GenericObject.isDisplayed(GenericObject.java:97)
+	at pages.HomePage.isHomePageLoaded(HomePage.java:52)
+	at tests.steps.UserRegistrationSteps.userGoesToNopCommerceHomePage(UserRegistrationSteps.java:23)
+	at tests.testcases.UserRegistrationTest.testToVerifyRegistration(UserRegistrationTest.java:19)
+</failure>
+    <system-out>13:36:46.731 INFO  &apos;Nopcommerce registration feature Test&apos; failed
+13:36:46.736 INFO  ---------------------------------------------------
+13:36:47.445 INFO  Starting testcase: testToVerifyRegistration
+13:36:48.259 INFO  Open URL: https://demo.nopcommerce.com/
+13:36:48.312 INFO  Check visibility of element - &apos;By.xpath: //a/img[@alt=&apos;nopCommerce demo store&apos;]&apos;
+13:37:18.591 INFO  org.openqa.selenium.TimeoutException: Expected condition failed: Element Noopcommerce logo is not found (tried for 30 second(s) with 5000 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.78, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46071}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.21.0.5:4444/sessio..., se:cdpVersion: 124.0.6367.78, se:vnc: ws://172.21.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 101a02f004c66b1472801d9d9ac7401a
+</system-out>
+  </testcase>
+  <testcase classname="tests.testcases.UserRegistrationTest" name="testToVerifyRegistration" time="30.434">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at elements.element.GenericObject.isDisplayed(GenericObject.java:97)
+	at pages.HomePage.isHomePageLoaded(HomePage.java:52)
+	at tests.steps.UserRegistrationSteps.userGoesToNopCommerceHomePage(UserRegistrationSteps.java:23)
+	at tests.testcases.UserRegistrationTest.testToVerifyRegistration(UserRegistrationTest.java:19)
+</failure>
+    <system-out>13:37:18.750 INFO  &apos;Nopcommerce registration feature Test&apos; failed
+13:37:18.751 INFO  ---------------------------------------------------
+13:37:19.453 INFO  Starting testcase: testToVerifyRegistration
+13:37:20.650 INFO  Open URL: https://demo.nopcommerce.com/
+13:37:20.686 INFO  Check visibility of element - &apos;By.xpath: //a/img[@alt=&apos;nopCommerce demo store&apos;]&apos;
+13:37:50.995 INFO  org.openqa.selenium.TimeoutException: Expected condition failed: Element Noopcommerce logo is not found (tried for 30 second(s) with 5000 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.78, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45471}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.21.0.5:4444/sessio..., se:cdpVersion: 124.0.6367.78, se:vnc: ws://172.21.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: be3023f1cdc9c106ffbf2494d92f12ab
+</system-out>
+  </testcase>
+  <testcase classname="tests.testcases.UserRegistrationTest" name="testToVerifyRegistration" time="30.407">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at elements.element.GenericObject.isDisplayed(GenericObject.java:97)
+	at pages.HomePage.isHomePageLoaded(HomePage.java:52)
+	at tests.steps.UserRegistrationSteps.userGoesToNopCommerceHomePage(UserRegistrationSteps.java:23)
+	at tests.testcases.UserRegistrationTest.testToVerifyRegistration(UserRegistrationTest.java:19)
+</failure>
+    <system-out>13:37:51.120 INFO  &apos;Nopcommerce registration feature Test&apos; failed
+13:37:51.120 INFO  ---------------------------------------------------
+13:37:51.773 INFO  Starting testcase: testToVerifyRegistration
+13:37:52.434 INFO  Open URL: https://demo.nopcommerce.com/
+13:37:52.478 INFO  Check visibility of element - &apos;By.xpath: //a/img[@alt=&apos;nopCommerce demo store&apos;]&apos;
+13:38:22.742 INFO  org.openqa.selenium.TimeoutException: Expected condition failed: Element Noopcommerce logo is not found (tried for 30 second(s) with 5000 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.78, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43691}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.21.0.5:4444/sessio..., se:cdpVersion: 124.0.6367.78, se:vnc: ws://172.21.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 454601f85346ff7174b85c7fb9338cae
+</system-out>
+  </testcase>
+  <testcase classname="tests.testcases.UserRegistrationTest" name="testToVerifyRegistration" time="30.434">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at elements.element.GenericObject.isDisplayed(GenericObject.java:97)
+	at pages.HomePage.isHomePageLoaded(HomePage.java:52)
+	at tests.steps.UserRegistrationSteps.userGoesToNopCommerceHomePage(UserRegistrationSteps.java:23)
+	at tests.testcases.UserRegistrationTest.testToVerifyRegistration(UserRegistrationTest.java:19)
+</failure>
+    <system-out>13:38:22.885 INFO  &apos;Nopcommerce registration feature Test&apos; failed
+13:38:22.885 INFO  ---------------------------------------------------
+13:38:23.579 INFO  Starting testcase: testToVerifyRegistration
+13:38:24.648 INFO  Open URL: https://demo.nopcommerce.com/
+13:38:24.684 INFO  Check visibility of element - &apos;By.xpath: //a/img[@alt=&apos;nopCommerce demo store&apos;]&apos;
+13:38:54.969 INFO  org.openqa.selenium.TimeoutException: Expected condition failed: Element Noopcommerce logo is not found (tried for 30 second(s) with 5000 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.78, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:38385}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.21.0.5:4444/sessio..., se:cdpVersion: 124.0.6367.78, se:vnc: ws://172.21.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ebf5e4439fba61291d4bdeb2d14c6bdc
+</system-out>
+  </testcase>
+  <testcase classname="tests.testcases.PlaceOrderAsGuestTest" name="testToVerifyPlaceOrderAsGuest" time="30.49">
+    <failure message="User landed on NopCommerce homepage expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: User landed on NopCommerce homepage expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at abstractComponents.FrameworkAssertionLibrary.stepAssertionShouldBeTrue(FrameworkAssertionLibrary.java:36)
+	at tests.steps.PlaceOrderAsGuestSteps.userGoToTheNopCommerceHomePage(PlaceOrderAsGuestSteps.java:30)
+	at tests.testcases.PlaceOrderAsGuestTest.testToVerifyPlaceOrderAsGuest(PlaceOrderAsGuestTest.java:20)
+</failure>
+    <system-out>13:38:55.118 INFO  &apos;Nopcommerce registration feature Test&apos; failed
+13:38:55.118 INFO  ---------------------------------------------------
+Method NAME IS : testToVerifyPlaceOrderAsGuest
+13:38:56.252 INFO  Starting testcase: testToVerifyPlaceOrderAsGuest
+13:38:57.260 INFO  Open URL: https://demo.nopcommerce.com/
+13:38:57.302 INFO  Check visibility of element - &apos;By.xpath: //a/img[@alt=&apos;nopCommerce demo store&apos;]&apos;
+13:39:27.592 INFO  org.openqa.selenium.TimeoutException: Expected condition failed: Element Noopcommerce logo is not found (tried for 30 second(s) with 5000 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.78, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43953}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.21.0.5:4444/sessio..., se:cdpVersion: 124.0.6367.78, se:vnc: ws://172.21.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6378bacb60ead49529708ded2c7fd4e8
+</system-out>
+  </testcase>
+</testsuite>

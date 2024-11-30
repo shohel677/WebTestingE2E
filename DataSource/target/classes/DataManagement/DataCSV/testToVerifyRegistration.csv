@@ -1,0 +1,6 @@
+Gender,First name,Last name,Date of birth,Email,Company name,Newsletter,Password,Confirm password,REGISTER,msg
+Male,Anthony,Abraham,20/05/1995,email,Abc company-23,checked,pass@1234,pass@1234,Register,Your registration completed
+Female,Alexandra,Allan,9/05/1999,email,Abc company-23,unchecked,pass@1234,pass@1234,Register,Your registration completed
+Female,Alison,Alsop,3/05/2000,email,Abc company-23,unchecked,pass@1234,pass@1234,Register,Your registration completed
+Male,Amanda,Anderson,2/05/2001,email,Abc company-23,checked,pass@1234,pass@1234,Register,Your registration completed
+Female,Austin,Arnold,10/05/1990,email,Abc company-23,unchecked,pass@1234,pass@1234,Register,Your registration completed

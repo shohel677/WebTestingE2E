@@ -1,0 +1,39 @@
+image: maven:3.8.6-openjdk-11
+
+stages:
+  - CodeQuality
+  - ComponentCheck
+  - Pre-Requisites
+  - execute
+  - Test-Development
+  - Core-Regression-GIT-Pipeline
+
+variables:
+  suiteFile: ${suiteFile}
+  env: ${env}
+  url: ${url}
+  username: ${username}
+  password: ${password}
+  buildNumber: ${buildNumber}
+  runID: ${runID}
+  browser: ${browser}
+
+Regression:
+   stage: execute
+   tags:
+     - shared
+   script:
+     - set +e -x
+     - mvn --update-snapshots --define browser=chrome --define env=KPIQA --define url=${url} --define username=${username} --define password=${password} --define buildNumber=${buildNumber} --define runID=123  --define remote=true --define suiteFile=CoreAuthAdmin.xml --define dataSourceName=Environment_KPIQA clean test
+   when: always
+   allow_failure: false
+   artifacts:
+     when: always
+     untracked: true
+     expire_in: 24 hours
+   only:
+     refs:
+       - web
+       - schedules
+       - triggers
+       - pipelines

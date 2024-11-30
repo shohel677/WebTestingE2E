@@ -1,0 +1,66 @@
+13:36:14.906 INFO  Starting testcase: testToVerifyRegistration
+13:36:15.836 INFO  Open URL: https://demo.nopcommerce.com/
+13:36:16.012 INFO  Check visibility of element - 'By.xpath: //a/img[@alt='nopCommerce demo store']'
+13:36:46.504 INFO  org.openqa.selenium.TimeoutException: Expected condition failed: Element Noopcommerce logo is not found (tried for 30 second(s) with 5000 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.78, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:34725}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.21.0.5:4444/sessio..., se:cdpVersion: 124.0.6367.78, se:vnc: ws://172.21.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 82b965241b448dd78a9248b17ed66ceb
+13:36:46.731 INFO  'Nopcommerce registration feature Test' failed
+13:36:46.736 INFO  ---------------------------------------------------
+13:36:47.445 INFO  Starting testcase: testToVerifyRegistration
+13:36:48.259 INFO  Open URL: https://demo.nopcommerce.com/
+13:36:48.312 INFO  Check visibility of element - 'By.xpath: //a/img[@alt='nopCommerce demo store']'
+13:37:18.591 INFO  org.openqa.selenium.TimeoutException: Expected condition failed: Element Noopcommerce logo is not found (tried for 30 second(s) with 5000 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.78, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46071}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.21.0.5:4444/sessio..., se:cdpVersion: 124.0.6367.78, se:vnc: ws://172.21.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 101a02f004c66b1472801d9d9ac7401a
+13:37:18.750 INFO  'Nopcommerce registration feature Test' failed
+13:37:18.751 INFO  ---------------------------------------------------
+13:37:19.453 INFO  Starting testcase: testToVerifyRegistration
+13:37:20.650 INFO  Open URL: https://demo.nopcommerce.com/
+13:37:20.686 INFO  Check visibility of element - 'By.xpath: //a/img[@alt='nopCommerce demo store']'
+13:37:50.995 INFO  org.openqa.selenium.TimeoutException: Expected condition failed: Element Noopcommerce logo is not found (tried for 30 second(s) with 5000 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.78, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45471}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.21.0.5:4444/sessio..., se:cdpVersion: 124.0.6367.78, se:vnc: ws://172.21.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: be3023f1cdc9c106ffbf2494d92f12ab
+13:37:51.120 INFO  'Nopcommerce registration feature Test' failed
+13:37:51.120 INFO  ---------------------------------------------------
+13:37:51.773 INFO  Starting testcase: testToVerifyRegistration
+13:37:52.434 INFO  Open URL: https://demo.nopcommerce.com/
+13:37:52.478 INFO  Check visibility of element - 'By.xpath: //a/img[@alt='nopCommerce demo store']'
+13:38:22.742 INFO  org.openqa.selenium.TimeoutException: Expected condition failed: Element Noopcommerce logo is not found (tried for 30 second(s) with 5000 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.78, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43691}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.21.0.5:4444/sessio..., se:cdpVersion: 124.0.6367.78, se:vnc: ws://172.21.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 454601f85346ff7174b85c7fb9338cae
+13:38:22.885 INFO  'Nopcommerce registration feature Test' failed
+13:38:22.885 INFO  ---------------------------------------------------
+13:38:23.579 INFO  Starting testcase: testToVerifyRegistration
+13:38:24.648 INFO  Open URL: https://demo.nopcommerce.com/
+13:38:24.684 INFO  Check visibility of element - 'By.xpath: //a/img[@alt='nopCommerce demo store']'
+13:38:54.969 INFO  org.openqa.selenium.TimeoutException: Expected condition failed: Element Noopcommerce logo is not found (tried for 30 second(s) with 5000 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.78, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:38385}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.21.0.5:4444/sessio..., se:cdpVersion: 124.0.6367.78, se:vnc: ws://172.21.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ebf5e4439fba61291d4bdeb2d14c6bdc
+13:38:55.118 INFO  'Nopcommerce registration feature Test' failed
+13:38:55.118 INFO  ---------------------------------------------------
+13:38:56.252 INFO  Starting testcase: testToVerifyPlaceOrderAsGuest
+13:38:57.260 INFO  Open URL: https://demo.nopcommerce.com/
+13:38:57.302 INFO  Check visibility of element - 'By.xpath: //a/img[@alt='nopCommerce demo store']'
+13:39:27.592 INFO  org.openqa.selenium.TimeoutException: Expected condition failed: Element Noopcommerce logo is not found (tried for 30 second(s) with 5000 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.78, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43953}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.21.0.5:4444/sessio..., se:cdpVersion: 124.0.6367.78, se:vnc: ws://172.21.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6378bacb60ead49529708ded2c7fd4e8
+13:39:27.793 INFO  'User should be able to successfully place order as a guest user' failed
+13:39:27.794 INFO  ---------------------------------------------------
